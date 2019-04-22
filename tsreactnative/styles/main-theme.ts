@@ -6,8 +6,17 @@ const mainTheme: DefaultTheme = {
 
   colors: {
     main: '#ff0000',
-    secondary: 'magenta',
+    primary: 'gray',
+    secondary: '#f1f',
   },
+
+  bgColor: {
+    layout: '#ccc'
+  },
+
+  box: {
+    main: '#f1f1f1',    
+  }
 }
 
 export { mainTheme }
